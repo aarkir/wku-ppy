@@ -1,0 +1,17 @@
+<div id="header-wrapper">
+	<div id="header" class="container">
+		
+		<!-- Logo -->
+		<a href="index.html" class="image"><img src="images/title-cropped.png" alt="The Project Pengyou: WKU Chapter Project 朋友： 西肯塔基大学" /></a>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html" class="icon fa-home"><span>Welcome 欢迎</span></a></li>
+				<li><a href="connect.html" class="icon fa-retweet"><span>Connect 动态</span></a></li>
+				<li><a href="involvement.html" class="icon fa-newspaper-o"><span>Involvement 互动</span></a></li>
+				<li><a href="mission.html" class="icon fa-balance-scale"><span>Mission 宣言</span></a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
