@@ -11,7 +11,7 @@ I set up the following organization structure. This website was originally desig
     * main.js (edit this for overall effects)
     * skel.min.js, skel-viewport.min.js (neat js plugin that allows really easy table-like or cell-like structures. scales for mobile and desktop apps alike. See https://github.com/ajlkn/skel for details)
 * images (includes images from across site. Add new ones to update site)
-* include (contains SHTML fragments like the header and script that are automatically loaded to every web page. make sure to include these if you add a new page)
+* \_includes (contains html fragments like the header and script that are automatically loaded to every web page. make sure to include these if you add a new page)
 * connect.html (in progress. design was to include photos of each membership team member and a contact info form in the middle. )
 * index.html (home page. includes juicer.io script)
 * involvement.html (shows community involvement via a juicer.io script that shows latest social media posts)
@@ -27,7 +27,7 @@ includes juicer.io script
 The chapter email is ppythewkuchapter@gmail.com. The old chapter website is http://ppythewkuchapter.wixsite.com/pengyous. The formspree account is located at https://formspree.io/. The juicer account is located at https://www.juicer.io/feeds/ppywkuchapter. You can use the email for managing the website or form details. You can use the old website for details.
 
 # Update
-When making an update, 
+When making an update,
 1. first edit your files.
 2. run cmd in the base repository directory
 3. `git add -A`

@@ -1,17 +1,20 @@
+---
+---
+
 <!DOCTYPE HTML>
 
-<!--#include virtual="include/acknowledgements.shtml" -->
+{% include acknowledgements.html %}
 
 <html>
 	<head>
 		<title>Mission 宣言</title>
-		<!--#include virtual="include/head.shtml" -->
+		{% include head.html %}
 	</head>
-	
+
 	<body class="homepage">
 		<div id="page-wrapper">
 
-			<!--#include virtual="include/header.shtml" -->
+			{% include header.html %}
 
 			<!-- Features -->
 			<div id="features-wrapper">
@@ -64,11 +67,11 @@
 						<p>Serve.  Inspire.  Transform.</p>
 						<p>服务。启发。转化。</p>
 					</section>
-					
+
 				</div>
 			</div>
 
-		<!--#include virtual="include/scripts.shtml" -->
+		{% include scripts.html %}
 
 	</body>
 </html>
